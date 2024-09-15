@@ -15,9 +15,22 @@ class CountrySeeder extends Seeder
     public function run(): void
     {
         DB::table('countries')->insert([
+<<<<<<< HEAD
             'name' => '日本',
             'created_at' => new DateTime(),
             'updated_at' => new DateTime(),
+=======
+            'id' => 1,
+            'name' => '日本',
+            'created_at' => new DateTime(),
+            'updated_at' => new DateTime(),
+            ],
+            [
+            'id' => 2,
+            'name' => 'メキシコ',
+            'created_at' => new DateTime(),
+            'updated_at' => new DateTime(),
+>>>>>>> origin/master
             ]);
     }
 }

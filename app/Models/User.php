@@ -42,4 +42,12 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
         'password' => 'hashed',
     ];
+<<<<<<< HEAD
+=======
+
+    public function notes()
+    {
+        return $this->hasMany(Note::class);
+    }
+>>>>>>> origin/master
 }
