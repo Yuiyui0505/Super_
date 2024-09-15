@@ -15,11 +15,6 @@ class CategorySeeder extends Seeder
     public function run(): void
     {
         DB::table('categories')->insert([
-<<<<<<< HEAD
-            'name' => '牛乳',
-            'created_at' => new DateTime(),
-            'updated_at' => new DateTime(),
-=======
             'id' => 1,
             'name' => '牛乳',
             'created_at' => new DateTime(),
@@ -30,7 +25,6 @@ class CategorySeeder extends Seeder
             'name' => '豚バラ肉',
             'created_at' => new DateTime(),
             'updated_at' => new DateTime(),
->>>>>>> origin/master
             ]);
     }
 }

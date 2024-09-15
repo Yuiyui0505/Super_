@@ -14,16 +14,6 @@ class NoteSeeder extends Seeder
      */
     public function run(): void
     {
-<<<<<<< HEAD
-        DB::table('notes')->insert([
-            'price' => '10000',
-            'created_at' => new DateTime(),
-            'updated_at' => new DateTime(),
-            'supermarket_id' => 1,
-            'product_id' => 1,
-            'user_id' => 1,
-        ]);
-=======
         DB::table('notes')->insert(
             [
             'id' => 1,
@@ -44,6 +34,5 @@ class NoteSeeder extends Seeder
             'updated_at' => new DateTime(),
             ]);
             
->>>>>>> origin/master
     }
 }

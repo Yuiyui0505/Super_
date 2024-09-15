@@ -15,13 +15,6 @@ class ProductSeeder extends Seeder
     public function run(): void
     {
         DB::table('products')->insert([
-<<<<<<< HEAD
-            'name' => '明治おいしい牛乳',
-            'created_at' => new DateTime(),
-            'updated_at' => new DateTime(),
-            'category_id' => 1,
-            'country_id' => 1,
-=======
             'id' => 1,
             'name' => '明治おいしい牛乳',
             'category_id' => 1,
@@ -36,7 +29,6 @@ class ProductSeeder extends Seeder
             'country_id' => 2,
             'created_at' => new DateTime(),
             'updated_at' => new DateTime(),
->>>>>>> origin/master
             ]);
     }
 }
