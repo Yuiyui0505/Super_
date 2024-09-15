@@ -1510,18 +1510,6 @@
         },
         {
             "name": "league/commonmark",
-<<<<<<< HEAD
-            "version": "2.5.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/thephpleague/commonmark.git",
-                "reference": "df09d5b6a4188f8f3c3ab2e43a109076a5eeb767"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/df09d5b6a4188f8f3c3ab2e43a109076a5eeb767",
-                "reference": "df09d5b6a4188f8f3c3ab2e43a109076a5eeb767",
-=======
             "version": "2.5.1",
             "source": {
                 "type": "git",
@@ -1532,7 +1520,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/ac815920de0eff6de947eac0a6a94e5ed0fb147c",
                 "reference": "ac815920de0eff6de947eac0a6a94e5ed0fb147c",
->>>>>>> origin/master
                 "shasum": ""
             },
             "require": {
@@ -1625,11 +1612,7 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD
-            "time": "2024-08-14T10:56:57+00:00"
-=======
             "time": "2024-07-24T12:52:09+00:00"
->>>>>>> origin/master
         },
         {
             "name": "league/config",
@@ -5882,8 +5865,6 @@
             "time": "2020-07-09T08:09:16+00:00"
         },
         {
-<<<<<<< HEAD
-=======
             "name": "laravel/breeze",
             "version": "v1.29.1",
             "source": {
@@ -5946,7 +5927,6 @@
             "time": "2024-03-04T14:35:21+00:00"
         },
         {
->>>>>>> origin/master
             "name": "laravel/pint",
             "version": "v1.17.2",
             "source": {
