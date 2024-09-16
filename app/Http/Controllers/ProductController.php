@@ -10,6 +10,6 @@ class ProductController extends Controller
 {
     public function index(Product $product)
     {
-        return view('Products.index')->with(['notes' => $product->getByProduct()]);
+        return view('products.index')->with(['notes' => $product->getByProduct()]);
     }
 }

@@ -10,6 +10,6 @@ class SupermarketController extends Controller
 {
     public function index(Supermarket $supermarket)
     {
-        return view('Supermarkets.index')->with(['notes' => $supermarket->note_products()]);
+        return view('supermarkets.index')->with(['notes' => $supermarket->note_products()]);
     }
 }

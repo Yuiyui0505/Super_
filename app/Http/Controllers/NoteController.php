@@ -11,19 +11,19 @@ class NoteController extends Controller
 {
     public function index(Note $note)
     {
-        return view('Notes.index')->with(['notes' => $note->getPaginateByLimit()]);
+        return view('notes.index')->with(['notes' => $note->getPaginateByLimit()]);
     }
     public function show(Note $note)
     {
-        return view('Notes.show')->with(['note' => $note]);
+        return view('notes.show')->with(['note' => $note]);
     }
     public function create(Product $product, Supermarket $supermarket)
     {
-        return view('Notes.create')->with(['products' => $product->get(),'supermarkets' => $supermarket->get()]);
+        return view('notes.create')->with(['products' => $product->get(),'supermarkets' => $supermarket->get()]);
     }
     public function register()
     {
-        return view('Notes.register');
+        return view('notes.register');
     }
     public function store(Request $request, Note $note)
     {
