@@ -22,5 +22,4 @@ Route::get('/notes/register', [NoteController::class, 'register']);
 Route::get('/notes/{note}', [NoteController::class, 'show']);
 Route::get('/products/{product}', [ProductController::class,'index']);
 Route::get('supermarkets/{supermarket}', [SupermarketController::class,'index']);
-Route::get('/notes/', [NoteController::class, 'store']);
 Route::post('/notes/', [NoteController::class, 'store']);
