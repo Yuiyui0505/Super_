@@ -17,8 +17,8 @@ use App\Http\Controllers\SupermarketController;
 */
 
 Route::get('/', [NoteController::class, 'index']);
-Route::get('/Notes/create', [NoteController::class, 'create']);
-Route::get('/Notes/register', [NoteController::class, 'register']);
+Route::get('/notes/create', [NoteController::class, 'create']);
+Route::get('/notes/register', [NoteController::class, 'register']);
 Route::get('/notes/{note}', [NoteController::class, 'show']);
 Route::get('/products/{product}', [ProductController::class,'index']);
 Route::get('supermarkets/{supermarket}', [SupermarketController::class,'index']);
