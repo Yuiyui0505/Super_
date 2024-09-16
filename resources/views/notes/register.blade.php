@@ -6,7 +6,7 @@
     </head>
     <body>
         <h1>新規登録</h1>
-        <form action="/notes" method="POST">
+        <form action="/notes/" method="POST">
             @csrf
             <div class='product'>
                 <h1>商品名</h1>
